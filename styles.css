@@ -165,7 +165,7 @@ small {
 
 @media screen and (max-width:910px) {
     body {
-        width: 90%;
+        width: 100%;
     }
 }
 @media screen and (max-width:710px) {

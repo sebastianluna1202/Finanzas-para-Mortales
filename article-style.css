@@ -169,7 +169,7 @@ small {
 }
 @media screen and (max-width:910px) {
     body {
-        width: 90%;
+        width: 100%;
     }
 }
 @media screen and (max-width:710px) {
@@ -179,6 +179,7 @@ small {
     }
     header nav {
         margin: 20px;
+        padding-left: 0;
     }
     header nav ul {
         align-items: center;
@@ -193,6 +194,9 @@ small {
     table td {
         font-size: 10px;
         padding: 4px 2px;
+    }
+    main > div {
+        width: 100%;
     }
 }
 #img {
